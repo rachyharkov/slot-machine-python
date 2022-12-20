@@ -1,6 +1,19 @@
 def deposit():
   while True:
-    amount = input("What would you like to deposit? $")
+    amount = input("Berapa duit yang mau km deposit? $")
 
     if amount.isdigit():
-      amount = int(amount)...
+      amount = int(amount)
+      if amount > 0:
+        break
+      else:
+        print("Angka harus lebih dari 0")
+    else:
+      print("Masukan angka")
+    
+    return amount
+
+def main():
+  balance = deposit()
+
+main()
