@@ -1,6 +1,6 @@
 # Slot Machine
 
-This is a simple slot machine game written in Python using basic logic
+This repo is a part of my learning journey, a bit about this repo, this a simple slot machine game written in Python using basic logic
 
 ## How to play
 
